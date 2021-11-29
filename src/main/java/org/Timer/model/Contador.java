@@ -31,7 +31,7 @@ public class Contador extends Observable implements Runnable {
 			contador++;
 			notifyObservers();
 			try {
-				Thread.sleep(100);
+				Thread.sleep(1000);
 				this.suspendido.resume();
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block

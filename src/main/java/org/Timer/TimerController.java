@@ -66,6 +66,9 @@ public class TimerController implements Observer {
 		this.paraButton.setText("Detener");
 		timer.reset();
 		this.timerField.setText("00:00:00");
+		this.seconds=0;
+		this.minutes=0;
+		this.hours=0;
 	}
 
 	public void updateField(Integer contador) {
